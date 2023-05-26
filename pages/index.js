@@ -13,6 +13,7 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import Pricing from "../components/pricing";
+import Waitlist from "../components/waitlist"
 
 const Home = () => {
   return (
@@ -54,7 +55,7 @@ const Home = () => {
         We're happy to answer any questions you may have!
       </SectionTitle>
       <Faq />
-      <Cta />
+      <Waitlist />
       <Footer />
       <PopupWidget />
     </>

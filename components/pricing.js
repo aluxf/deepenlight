@@ -32,10 +32,12 @@ function Price(props) {
             
           </div>
           </div>
-          <button className={` w-full  rounded bg-indigo-500 hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4
-                        ${data.dark ? "text-indigo-500 bg-white opacity-75 hover:opacity-100 hover:shadow-xl transition duration-150 ease-in-out" : "text-white"}`}>
-                Choose plan
-        </button>
+          <a href="#waitlist">
+            <button className={` w-full  rounded bg-indigo-500 hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4
+                          ${data.dark ? "text-indigo-500 bg-white opacity-75 hover:opacity-100 hover:shadow-xl transition duration-150 ease-in-out" : "text-white"}`}>
+                  Choose plan
+            </button>
+          </a>
           
         </div>
     )
