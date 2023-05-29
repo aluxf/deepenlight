@@ -2,21 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (min-width: 1024px) {
 .tv-screen {
   position: relative; /* Position relative here so the image can be position absolute relative to this div */
-  width: 700px;
-  height: 500px;
   transform: perspective(500px) rotateY(-10deg);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.425);
-
+}
 }
 
+@media (min-width: 1024px) {
 .tv-screen-image {
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   transform: perspective(500px) rotateY(-1deg); /* Revert the rotateY effect on the image */
+}
 }
 
 @layer base {

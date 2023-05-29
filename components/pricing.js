@@ -18,7 +18,7 @@ function Price(props) {
           <p className={`text-lg  mt-2 ${data.dark ? "opacity-75" : "text-gray-500"}`}>
             {data.desc}
           </p>
-          <div className="text-lg mt-4">
+          <div className="text-lg mt-4 flex flex-col">
             { data.features.map((text) => {
                 return (
                     <p className="my-2 inline-flex gap-4">

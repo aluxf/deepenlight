@@ -22,11 +22,11 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/img/delogo.svg"
                         alt="N"
                         width="32"
                         height="32"
-                        className="w-8"
+                        className="w-9"
                       />
                     </span>
                     <span>Deepenlight</span>

@@ -34,7 +34,7 @@ const priceTwo = {
   unit: "Month",
   desc: "For frequent writers and professionals who require regular feedback.",
   features: [
-    "Unlimited documents",
+    "30 documents / month",
     "200 pages / document",
     "32 MB / document",
     "Support for .doc .docx .pdf .txt.",

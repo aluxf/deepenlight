@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/step-four.png";
+import heroImg from "../public/img/hero3.png";
 import Link from "next/link";
 
 /**
@@ -11,39 +11,38 @@ import Link from "next/link";
  * 
  */
 const Hero = () => {
+
+
   return (
     <>
-      <Container className="flex flex-wrap h-[80vh] justify-center">
-        <div className="flex items-center w-full lg:w-1/2">
-          <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Enhance Your Writing with AI-Powered Feedback
+      <Container className="flex flex-col items-center h-[90vh] justify-center">
+        <div className="flex flex-col items-center w-full">
+          <div className="gap-6 flex flex-col items-center max-w-[48rem] text-center mb-8">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-700 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+              <span className="text-purple-400">Enhance Your Writing</span>  with AI-Powered Feedback
             </h1>
+            <div className="flex flex-col items-center">
+              <Image
+              src={heroImg}
+              width={1200}
+              height={"auto"}
+              >
+
+              </Image>
+            </div>
+
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
             Want to take your writing to the next level? Explore Deepenlight AI - your guide to perfecting writing skills through personalized feedback and commentary.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+
+            <div className="flex flex-col items-center space-y-6 sm:space-x-4 sm:space-y-0">
               <a
                 href="#waitlist"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
                 Sign up now
               </a>
 
-            </div>
-          </div>
-        </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2 ">
-          <div className="">
-            <div className="tv-screen rounded-xl flex items-center justify-center bg-gray-700">
-              <div className="tv-screen-image">
-                  <Image
-                      src={heroImg} 
-                      alt="TV Screen"
-                      width={500}
-                      height={"auto"} // This will make the image to fill the parent div
-                  />
-              </div>
             </div>
           </div>
         </div>
