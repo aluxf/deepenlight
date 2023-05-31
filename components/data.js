@@ -96,7 +96,7 @@ const stepTwo = {
 
 const stepThree = {
   title: "3. Choose your feedback",
-  desc: "Proceed by choosing the kind of feedback you require. Highlight the aspects that suit your writing and let our AI reviewer tailor its advice accordingly. Remember, you're the maestro here, and we're just tuning the orchestra.",
+  desc: "Proceed by choosing the kind of feedback you require. Highlight the aspects that suit your writing and let our AI reviewer tailor its advice accordingly.",
   image: stepThreeImg,
   width: 700,
   icon: <DocumentIcon/>,
