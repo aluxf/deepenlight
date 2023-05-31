@@ -19,12 +19,12 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Deepenlight - Advanced AI Text Reviewing Platform</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Deepenlight is an advanced AI text reviewing platform engineered for students, writers, and professionals. Utilizing the latest AI technology, we provide insightful feedback on any type of content."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/delogo.svg" />
       </Head>
 
       <Navbar />
